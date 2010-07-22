@@ -27,6 +27,16 @@
 		// output the field on the publish page
 		public function display_field($data)
 		{
+		
+			// when editing an entry the entry_id should be available as a GET
+			$entry_id = $this->EE->input->get('entry_id');
+						
+			// if its not there, then its a new entry being published via the cp
+			if($entry_id == NULL)
+			{
+				// we'll stop here then, laters
+				return '<p>No Registrations yet</p>';
+			}
 			
 			$r = '';
 			
@@ -67,16 +77,7 @@
 							<th style="width: 30%;">Tel</th>
 							<th></th>
 						</tr>';
-						
-			// when editing an entry the entry_id should be available as a GET
-			$entry_id = $this->EE->input->get('entry_id');
-						
-			// if its not there, then its a new entry being published via the cp
-			if($entry_id == NULL)
-			{
-				// we'll stop here then, laters
-				return '<tr><td colspan="4"><p>No Registrations yet</p></td></tr></table>';
-			}
+
 			
 			// build our reverse related query
 			// I'm getting some specific field data for my setup
