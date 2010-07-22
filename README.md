@@ -16,6 +16,13 @@ Whatever you do, don't bitch about my free addon, or I'll hit you with a lengthy
 
 Right in the chops.
 
+### Installation
+
+Download the package & rename the download to 'introvert'. 
+Drop it in your /system/expressionengine/third_party/ folder.
+
+Activate the fieldtype.
+
 ### Restrictions
 
 Unless you have been granted prior, written consent from Iain Urquhart, you may not:
