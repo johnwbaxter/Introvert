@@ -10,7 +10,9 @@ You should be fairly comfortable editing php/mysql to make this add-on do what y
 
 I've commented it quite a bit, so you should see what you need to do.
 
-If you find it useful, throw some coinage in the jar...
+If you find it useful, throw some coinage in the jar... 
+
+If you need some help, flick me an email.
 
 Whatever you do, don't bitch about my free addon, or I'll hit you with a lengthy blog post one night when you're not looking.
 
